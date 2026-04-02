@@ -27,8 +27,8 @@ function App() {
     if (activeTab === "home") return (
       <>
         <Hero />
-        <ProductSection title="✨ New Arrivals" products={furnitureProducts} typeFilter="New" />
-        <ProductSection title="♻️ Thrift Treasures" products={furnitureProducts} typeFilter="Thrift" />
+        <ProductSection title=" New Arrivals" products={furnitureProducts} typeFilter="New" />
+        <ProductSection title=" Thrift Treasures" products={furnitureProducts} typeFilter="Thrift" />
       </>
     );
     return <ProductSection title={activeTab === "new" ? "New Furniture" : "Thrift Furniture"} products={filteredProducts} typeFilter={activeTab} />;
