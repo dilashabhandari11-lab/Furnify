@@ -37,4 +37,4 @@ This project was developed to improve frontend development skills using React, f
 - Payment system
 
 ## Author
-Your Name
+Dilasha
